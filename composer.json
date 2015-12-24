@@ -1,0 +1,30 @@
+{
+  "name": "purrweb/yii2-listgroup-menu",
+
+  "type": "yii2-extension",
+
+  "description": "Bootstrap list-group menu widget for Yii2",
+  "keywords": ["yii2", "menu", "bootstrap", "list-group"],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/supostat/yii2-listgroup-menu/issues",
+    "wiki": "https://github.com/supostat/yii2-listgroup-menu/wiki",
+    "source": "https://github.com/supostat/yii2-listgroup-menu"
+  },
+  "authors": [
+    {
+      "name": "Pugachev Igor",
+      "email": "ipugachev84@gmail.com"
+    }
+  ],
+
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "purrweb\\listgroup-menu\\": ""
+    }
+  }
+}
